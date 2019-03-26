@@ -38,7 +38,7 @@ rules:
   verbs: ["get", "list"]
 - apiGroups: [""]
   resources: ["secrets", "statefulsets", "pods", "persistentvolumeclaims", "persistentvolumes"]
-  verbs: ["create", "get", "update", "delete"]
+  verbs: ["create", "get", "update", "delete","list", "watch"]
 ---
 apiVersion: v1
 kind: ServiceAccount
